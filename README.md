@@ -42,11 +42,11 @@ pip install -r requirements.txt
 For example, delete any tweet from before *January 1, 2014*:
 
 ```bash
-python deletetweets.py -d 2014-01-01
+python3 deletetweets.py -d 2014-01-01
 ```
 
 Or delete all retweets:
 
 ```bash
-python deletetweets.py -r retweet
+python3 deletetweets.py -r retweet
 ```
